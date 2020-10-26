@@ -42,9 +42,10 @@
             <p>{{item.device}}{{item.comment.rank}} {{item.comment.tips}}</p>
               <p v-for="(mt, index) in item.comment.materials">
                   <span v-text="mt"></span>
-                  <span v-text="item.comment.material_num[index]"></span>
-                  <span> チケット:</span>
-                  <label v-if="materials[mt]" :id="'ticket-'+item.id+'+'+index"><input type="checkbox" v-bind:value="item.id+'-'+index" v-model="tickets">{{item.comment.ticket[index]}}</label><br>
+                  <span v-text="item.comment.material_num[index]+'コ'"></span>
+                  <label v-if="materials[mt]" :id="'ticket-'+item.id+'+'+index"><input type="checkbox" v-bind:value="item.id+'-'+index" v-model="tickets">{{item.comment.ticket[index]}}</label>
+                  <span v-text="'ﾄﾞﾛｯﾌ:ﾟ'+materials[mt].break"></span>
+                  <br>
                   <span v-if="materials[mt]">{{materials[mt].info}}</span>
               </p>
                 <!-- <span v-text="materials[mt]"></span> -->
@@ -89,6 +90,17 @@
           <input type="text" name="dummy" style="display:none;">
           <!-- 追加ボタンのモック -->
           <p></p>
+          <table style="padding-top: 20px;">
+            <tbody v-for="device in filteredDevices">
+              <tr v-for="(item, i) in device.type">
+                <td v-if="i == 0" v-bind:rowspan="device.type.length">{{device.device}}</td>
+                <td>{{item.rank}}</td>
+                <td><input type="button" v-on:click="doAdd(device.device,item)" value="追加"></td>
+                <td>{{item.tips}}</td>
+              </tr>
+            </tbody>
+          </table>
+<!-- 
           <div v-for="device in filteredDevices" style="padding-top: 20px;">
             <div v-for="item in device.type">
               <p>
@@ -113,6 +125,7 @@
               
               <p><br></p>
             </div>
+             -->
           </div>
           <!-- <button type="submit">追加</button> -->
           <input type="button" onclick="submit();" value="送信" style="display:none;" />

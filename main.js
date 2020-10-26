@@ -67,14 +67,25 @@ var app = new Vue({
 
     },
     computedOrbit: function () {
-      return null
-      // var sum = 0
-      // this.tickets.forEach( el =>{
-      //     sum += Number(document.getElementById(el).textContent);
-      // });
-      // return Math.ceil(this.todos.filter(function (el) {
-      //   return this.current < 0 ? true : this.current === el.state
-      // }, this).map(x => x.comment.ticket).reduce((a,x) => a+=x,0)/327);
+
+      sum = 0;
+      target = this.todos.filter(function (el) {
+        return this.current < 0 ? true : this.current === el.state
+      }, this)//.map(x => x.comment.ticket.map(el =>{ sum += el }))
+
+      for(i = 0; i < target.length;i++){
+        console.log(target[i].comment);
+        this.tickets.forEach( function(e){
+          array = e.split('-');
+          console.log(e.split('-'));
+          if( array[0] == target[i].id) {
+            console.log(target[i].comment.ticket[[array[1]]]);
+            sum += target[i].comment.ticket[[array[1]]];
+          }
+        })
+      }
+      console.log(sum);
+      return Math.ceil(sum/327);
     },
     computedMiraCost: function () {
       return this.todos.filter(function (el) {
@@ -145,9 +156,9 @@ var app = new Vue({
         state: 0
       })
     },
-    addTiket: function(value,check) {
+    // addTiket: function(value,check) {
       
-    },
+    // },
 
     // ★STEP10 状態変更の処理
     doChangeState: function (item) {
