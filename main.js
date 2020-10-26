@@ -52,19 +52,15 @@ var app = new Vue({
       }, this)//.map(x => x.comment.ticket.map(el =>{ sum += el }))
 
       for(i = 0; i < target.length;i++){
-        console.log(target[i].comment);
         this.tickets.forEach( function(e){
           array = e.split('-');
-          console.log(e.split('-'));
+        
           if( array[0] == target[i].id) {
-            console.log(target[i].comment.ticket[[array[1]]]);
             sum += target[i].comment.ticket[[array[1]]];
           }
         })
       }
-      console.log(sum);
       return sum;
-
     },
     computedOrbit: function () {
 
@@ -74,17 +70,13 @@ var app = new Vue({
       }, this)//.map(x => x.comment.ticket.map(el =>{ sum += el }))
 
       for(i = 0; i < target.length;i++){
-        console.log(target[i].comment);
         this.tickets.forEach( function(e){
           array = e.split('-');
-          console.log(e.split('-'));
           if( array[0] == target[i].id) {
-            console.log(target[i].comment.ticket[[array[1]]]);
             sum += target[i].comment.ticket[[array[1]]];
           }
         })
       }
-      console.log(sum);
       return Math.ceil(sum/327);
     },
     computedMiraCost: function () {
@@ -146,6 +138,9 @@ var app = new Vue({
       value.ticket = [];
       for( i = 0; i < value.materials.length; i++ ) {
         value.ticket[i] = this.materials[value.materials[i]].ticket * value.material_num[i];
+        if( this.materials[value.materials[i]].trade ){
+          this.tickets.push(todoStorage.uid+"-"+i);
+        }
       }
       value.ticket_def = value.ticket;
 
