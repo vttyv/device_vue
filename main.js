@@ -125,6 +125,8 @@ var app = new Vue({
   // ★STEP9
   created() {
     // インスタンス作成時に自動的に fetch() する
+    console.log("instans make it!");
+      this.todos = todoStorage.fetch()
       var self = this;
       axios
           .get('./device.json')
@@ -143,7 +145,6 @@ var app = new Vue({
           .catch(function(error) {
               console.log('取得に失敗しました。', error);
           })
-    this.todos = todoStorage.fetch()
   },
 
   methods: {

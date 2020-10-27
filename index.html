@@ -43,7 +43,7 @@
               <p v-for="(mt, index) in item.comment.materials">
                   <span v-text="mt"></span>
                   <span v-text="item.comment.material_num[index]+'コ'"></span>
-                  <label v-if="materials[mt]" :id="'ticket-'+item.id-'-'+index"><input type="checkbox" v-bind:value="item.id+'-'+index" v-model="tickets" >{{item.comment.ticket[index]}}</label>
+                  <label v-if="materials[mt]" :id="'ticket-'+item.id+'-'+index"><input type="checkbox" v-bind:value="item.id+'-'+index" v-model="tickets" >{{item.comment.ticket[index]}}</label>
                   <span v-if="materials[mt]" v-text="'ﾄﾞﾛｯﾌ:ﾟ'+materials[mt].break"></span>
                   <br>
                   <span v-if="materials[mt]">{{materials[mt].info}}</span>
