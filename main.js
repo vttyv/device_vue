@@ -125,6 +125,24 @@ var app = new Vue({
   // ★STEP9
   created() {
     // インスタンス作成時に自動的に fetch() する
+      var self = this;
+      axios
+          .get('./device.json')
+          .then(function(response) {
+              self.devices = response.data.devices;
+          })
+          .catch(function(error) {
+              console.log('取得に失敗しました。', error);
+          })
+  
+        axios
+          .get('./material.json')
+          .then(function(response) {
+              self.materials = response.data;
+          })
+          .catch(function(error) {
+              console.log('取得に失敗しました。', error);
+          })
     this.todos = todoStorage.fetch()
   },
 
@@ -164,8 +182,7 @@ var app = new Vue({
     doRemove: function (item) {
       var index = this.todos.indexOf(item)
       this.todos.splice(index, 1)
-    }
-    
+    } 
   },
   mounted: function() {
     var self = this;
