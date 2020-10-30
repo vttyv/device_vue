@@ -27,6 +27,7 @@ var app = new Vue({
     current: 0,
     // ★STEP11＆STEP13 各状態のラベル
     keyword: "",
+    mtr_name: "",
     tickets: [],
     devices: [],
     materials:[],
@@ -38,7 +39,6 @@ var app = new Vue({
   },
 
   computed: {
-
     // ★STEP12
     computedTodos: function () {
       return this.todos.filter(function (el) {
@@ -93,19 +93,35 @@ var app = new Vue({
       // キーから見つけやすいように、次のように加工したデータを作成
       // {0: '作業中', 1: '完了', -1: 'すべて'}
     },
-    filteredDevices: function () {
+    matcheMaterial: function () {
       var devices = [];
-      // 2文字以上入力されてたらDOM操作開始
-      if(this.keyword.length > 1) {
+      var keyword = this.keyword.trim();
+      var mtr_name = this.mtr_name.trim();
+      if(this.mtr_name.length > 2) {
         for(var i in this.devices) {
             var device = this.devices[i];
-            // if(device.device.includes(this.keyword) !== -1) {
-              if(device.device.match(new RegExp(this.keyword))) {
-                devices.push(device);
+            t = [];
+            device.type.forEach( type =>{
+              if(type.materials.join('').match(new RegExp(this.mtr_name))){
+                t.push(type)
+                // console.log(t);
+              }
+            })
+            if(t.length !== 0) {
+              device.type = t;
+              devices.push(device);
             }
         }
       }
-      return devices;
+      else {
+        devices = this.devices;
+      }
+      return devices.filter(function (el) {
+        if( keyword.length == 0)
+          return el;
+        else 
+          return el.device.match(new RegExp(keyword.trim()))
+      });
     }
   },
 
@@ -125,13 +141,12 @@ var app = new Vue({
   // ★STEP9
   created() {
     // インスタンス作成時に自動的に fetch() する
-    console.log("instans make it!");
       this.todos = todoStorage.fetch()
       var self = this;
       axios
           .get('./device.json')
           .then(function(response) {
-              self.devices = response.data.devices;
+              self.devices = response.data;
           })
           .catch(function(error) {
               console.log('取得に失敗しました。', error);
@@ -183,26 +198,6 @@ var app = new Vue({
     doRemove: function (item) {
       var index = this.todos.indexOf(item)
       this.todos.splice(index, 1)
-    } 
-  },
-  mounted: function() {
-    var self = this;
-    axios
-        .get('./device.json')
-        .then(function(response) {
-            self.devices = response.data.devices;
-        })
-        .catch(function(error) {
-            console.log('取得に失敗しました。', error);
-        })
-
-      axios
-        .get('./material.json')
-        .then(function(response) {
-            self.materials = response.data;
-        })
-        .catch(function(error) {
-            console.log('取得に失敗しました。', error);
-        })
     }
+  },
 })

@@ -6,12 +6,12 @@
     box-sizing: border-box;
   }
   #app {
-    max-width: 640px;
+    max-width: 800px;
     margin: 0 auto;
   }
   table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
   }
   thead th {
     border-bottom: 2px solid #0099e4; /*#d31c4a */
@@ -38,6 +38,7 @@
   tbody tr th {
     border-bottom: 1px solid #ccc;
     transition: all 0.4s;
+    padding: 7px 0px;
   }
   tbody tr.done td,
   tbody tr.done th {

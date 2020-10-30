@@ -1,139 +1,128 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
+  <meta property="og:site_name" content="XenobladeXデバイスリスト ベータ" />
+  <meta property="og:description" content="ゼノブレイドクロスでデバイス作る時、少し役に立つかもしれないツールを置いておきます。" />
   <title>XenobladeXデバイスリスト</title>
   <link rel="stylesheet" href="./main.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
 </head>
+
 <body>
+  <div class="container">
+    <div id="app">
+      <h1>XenobladeXデバイスリスト</h1>
 
-  <div id="app">
-    <h1>XenobladeXデバイスリスト</h1>
+      <!-- ★STEP11 -->
+      <label v-for="label in options">
+        <input type="radio" v-model="current" v-bind:value="label.value">{{ label.label }}
+      </label>
 
-    <!-- ★STEP11 -->
-    <label v-for="label in options" >
-      <input type="radio"
-        v-model="current"
-        v-bind:value="label.value">{{ label.label }}
-    </label>
-      
-    <!-- ★STEP12 -->
-    <span>
-    （{{ computedTodos.length }} 件を表示）<br>
-    チケット必要枚数:{{ computedTiketSum }},ミラニウム:{{computedMiraCost}}
-    </span><br>
-    <span>端末を{{ computedOrbit }}周しましょう</span>
-    <!-- ★STEP4 リスト用テーブル -->
-    <table>
-      <thead v-pre>
-        <tr>
-          <th class="comment">デバイス</th>
-          <th class="state">状態</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- ★STEP5 ToDo の要素をループ -->
-        <tr
-          v-for="item in computedTodos"
-          v-bind:key="item.id"
-          v-bind:id="'item-'+item.id"
-          v-bind:class="{done:item.state}">
-          <td>
-            <p>{{item.device}}{{item.comment.rank}} {{item.comment.tips}}</p>
+      <!-- ★STEP12 -->
+      <span>
+        （{{ computedTodos.length }} 件を表示）<br>
+        チケット必要枚数:{{ computedTiketSum }},ミラニウム:{{computedMiraCost}}
+      </span><br>
+      <span>端末を{{ computedOrbit }}周しましょう</span>
+      <!-- ★STEP4 リスト用テーブル -->
+      <table>
+        <thead v-pre>
+          <tr>
+            <th class="comment">デバイス</th>
+            <th class="state">状態</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- ★STEP5 ToDo の要素をループ -->
+          <tr v-for="item in computedTodos" v-bind:key="item.id" v-bind:id="'item-'+item.id"
+            v-bind:class="{done:item.state}">
+            <td>
+              <p>{{item.device}}{{item.comment.rank}} {{item.comment.tips}}</p>
               <p v-for="(mt, index) in item.comment.materials">
-                  <span v-text="mt"></span>
-                  <span v-text="item.comment.material_num[index]+'コ'"></span>
-                  <label v-if="materials[mt]" :id="'ticket-'+item.id+'-'+index"><input type="checkbox" v-bind:value="item.id+'-'+index" v-model="tickets" >{{item.comment.ticket[index]}}</label>
-                  <span v-if="materials[mt]" v-text="'ﾄﾞﾛｯﾌ:ﾟ'+materials[mt].break"></span>
-                  <br>
-                  <span v-if="materials[mt]">{{materials[mt].info}}</span>
+                <span v-text="mt"></span>
+                <span v-text="item.comment.material_num[index]+'コ'"></span>
+                <label v-if="materials[mt]" :id="'ticket-'+item.id+'-'+index"><input type="checkbox"
+                    v-bind:value="item.id+'-'+index" v-model="tickets">{{item.comment.ticket[index]}}</label>
+                <span v-if="materials[mt]" v-text="'ﾄﾞﾛｯﾌ:ﾟ'+materials[mt].break"></span>
+                <br>
+                <span v-if="materials[mt]">{{materials[mt].info}}</span>
               </p>
-                <!-- <span v-text="materials[mt]"></span> -->
-            <p>
-              <span v-text="item.comment.rsrc"></span>
-              <span> </span>
+              <!-- <span v-text="materials[mt]"></span> -->
+              <p>
+                <span v-text="item.comment.rsrc"></span>
+                <span> </span>
 
-              <span v-text="item.comment.rsrc_num"></span>
-              <span> ミラニウム:</span>
-              <span id="mira-cost" v-text="item.comment.cost"></span>
-              <span> 累計枚数:</span>
-              
-            </p>
-          </td>
-          <td class="state">
-            <!-- ★STEP10 状態変更ボタン -->
-            <button v-on:click="doChangeState(item)">
-              {{ labels[item.state] }}
-            </button>
+                <span v-text="item.comment.rsrc_num"></span>
+                <span> ミラニウム:</span>
+                <span id="mira-cost" v-text="item.comment.cost"></span>
+                <span> 累計枚数:</span>
 
-            <!-- ★STEP10 削除ボタン -->
-            <button v-on:click="doRemove(item)">
-              削除
-            </button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <!-- <p>※削除ボタンはaltキーを押しながらクリックして下さい</p> -->
+              </p>
+            </td>
+            <td class="state">
+              <!-- ★STEP10 状態変更ボタン -->
+              <button v-on:click="doChangeState(item)">
+                {{ labels[item.state] }}
+              </button>
 
-    <!-- ★STEP6 -->
-    <h2>新しいデバイスの追加</h2>
-    
+              <!-- ★STEP10 削除ボタン -->
+              <button v-on:click="doRemove(item)">
+                削除
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- <p>※削除ボタンはaltキーを押しながらクリックして下さい</p> -->
+
+      <!-- ★STEP6 -->
+      <h2>新しいデバイスの追加</h2>
       <form class="add-form" v-on:submit.prevent="doAdd">
         <!-- コメント入力フォーム -->
-          <label for="">デバイス名
-            <input type="search" list="devices" v-model="keyword" placeholder="デバイス名を入力" autocomplete="on" >
-            <datalist id="devices">
-              <option v-for="item in devices" v-bind:value=item.device v-bind:label=item.type[0].tips >{{item.device}}</option>
-            </datalist>
-          </label>
-          <input type="text" name="dummy" style="display:none;">
-          <!-- 追加ボタンのモック -->
-          <p></p>
-          <table style="padding-top: 20px;">
-            <tbody v-for="device in filteredDevices">
-              <tr v-for="(item, i) in device.type">
-                <td v-if="i == 0" v-bind:rowspan="device.type.length">{{device.device}}</td>
+        <label for="">デバイス名
+          <input type="search" list="devices" v-model="keyword" placeholder="デバイス名を入力" autocomplete="on">
+          <datalist id="devices" >
+            <option v-for="item in devices" v-bind:value=item.device v-bind:label=item.type[0].tips>{{item.device}}</option>
+          </datalist>
+
+          <input type="search" list="materials" v-model="mtr_name" placeholder="素材名から検索" autocomplete="on" >
+          <!-- <datalist id="materials">
+            <option v-for="item in materials" v-bind:value=item.material >{{item.material}}</option>
+          </datalist> -->
+        </label>
+        <input type="text" name="dummy" style="display:none;">
+        <!-- 追加ボタンのモック -->
+        <p></p>
+        <table style="padding-top: 20px;">
+          <tbody v-for="device in matcheMaterial">
+            <template v-for="(item, i) in device.type" :key="item.id">
+              <tr>
+                <td v-if="i == 0" v-bind:rowspan="device.type.length*2">{{device.device}}</td>
                 <td>{{item.rank}}</td>
                 <td><input type="button" v-on:click="doAdd(device.device,item)" value="追加"></td>
                 <td>{{item.tips}}</td>
               </tr>
-            </tbody>
-          </table>
-<!-- 
-          <div v-for="device in filteredDevices" style="padding-top: 20px;">
-            <div v-for="item in device.type">
-              <p>
-                <span ref="comment" v-text="device.device+item.rank"></span>
-                <input type="button" v-on:click="doAdd(device.device,item)" value="追加"> 
-                <span v-text="item.tips"></span>
-              </p>
-              <p>
-                <span v-for="(mt, index) in item.materials">
-                  <span v-text="mt"></span>
-                  <span v-text="item.material_num[index]"></span>
-                  <span> </span>
-                </span>
-              </p>
-              <p>
-                <span v-text="item.rsrc"></span>
-                <span> </span>
-
-                <span v-text="item.rsrc_num"></span>
-                <span> </span>
-              </p>
-              
-              <p><br></p>
-            </div>
-             -->
-          </div>
-          <!-- <button type="submit">追加</button> -->
-          <input type="button" onclick="submit();" value="送信" style="display:none;" />
-      </form>
+              <tr>
+                <td colspan="3">
+                  <span v-for="(mtr,i) in item.materials">
+                    {{item.materials[i]}} {{item.material_num[i]}}コ
+                  </span>
+                </td>
+              </tr>
+          </template>
+          </tbody>
+        </table>
+    </div>
+    <input type="button" onclick="submit();" value="送信" style="display:none;" />
+    </form>
+  </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="./main.js"></script>
 </body>
+
 </html>
