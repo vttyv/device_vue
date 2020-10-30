@@ -54,7 +54,7 @@
           <tr v-for="item in computedTodos" v-bind:key="item.id" v-bind:id="'item-'+item.id"
             v-bind:class="{done:item.state}">
             <td>
-              <p>{{item.device}}{{item.comment.rank}} {{item.comment.tips}}</p>
+              <p>{{item.cate}}<br>{{item.device}}{{item.comment.rank}} {{item.comment.tips}}</p>
               <p v-for="(mt, index) in item.comment.materials">
                 <span v-text="mt"></span>
                 <span v-text="item.comment.material_num[index]+'コ'"></span>
@@ -116,7 +116,7 @@
               <tr>
                 <td v-if="i == 0" v-bind:rowspan="device.type.length*2">{{device.device}}</td>
                 <td>{{item.rank}}</td>
-                <td><input type="button" v-on:click="doAdd(device.device,item)" value="追加"></td>
+                <td><input type="button" v-on:click="doAdd(device,item)" value="追加"></td>
                 <td>{{item.tips}}</td>
               </tr>
               <tr>

@@ -1,6 +1,6 @@
 [{
     "device": "格闘命中アップ",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -45,7 +45,7 @@
     }]
 }, {
     "device": "射撃命中アップ",
-    "class": "inner_wepon",
+    "class": "インナーウェポn",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -90,7 +90,7 @@
     }]
 }, {
     "device": "格闘力アップ",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -135,7 +135,7 @@
     }]
 }, {
     "device": "射撃力アップ",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -180,7 +180,7 @@
     }]
 }, {
     "device": "格闘命中ブースト",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -225,7 +225,7 @@
     }]
 }, {
     "device": "射撃命中ブースト",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -270,7 +270,7 @@
     }]
 }, {
     "device": "格闘力ブースト",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -315,7 +315,7 @@
     }]
 }, {
     "device": "射撃力ブースト",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -360,7 +360,7 @@
     }]
 }, {
     "device": "攻撃力アップ",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -405,7 +405,7 @@
     }]
 }, {
     "device": "カスタムバランス",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -450,7 +450,7 @@
     }]
 }, {
     "device": "安定性ブレイク",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -495,7 +495,7 @@
     }]
 }, {
     "device": "マガジン増加",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -540,7 +540,7 @@
     }]
 }, {
     "device": "格闘＋TP",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "-",
@@ -553,7 +553,7 @@
     }]
 }, {
     "device": "射撃＋TP",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "-",
@@ -566,7 +566,7 @@
     }]
 }, {
     "device": "リキャスト短縮",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -611,7 +611,7 @@
     }]
 }, {
     "device": "射撃レンジ延長",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -656,7 +656,7 @@
     }]
 }, {
     "device": "会心率アップ",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -701,7 +701,7 @@
     }]
 }, {
     "device": "会心ビースト",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -746,7 +746,7 @@
     }]
 }, {
     "device": "会心インセクト",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -791,7 +791,7 @@
     }]
 }, {
     "device": "会心メガフライ",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -836,7 +836,7 @@
     }]
 }, {
     "device": "会心エイリアン",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -881,7 +881,7 @@
     }]
 }, {
     "device": "会心マシーン",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -926,7 +926,7 @@
     }]
 }, {
     "device": "会心キメラ",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -971,7 +971,7 @@
     }]
 }, {
     "device": "会心アルティメット",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1016,7 +1016,7 @@
     }]
 }, {
     "device": "会心強化延長",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1061,7 +1061,7 @@
     }]
 }, {
     "device": "ビーストキラー",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1106,7 +1106,7 @@
     }]
 }, {
     "device": "インセクトキラー",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1151,7 +1151,7 @@
     }]
 }, {
     "device": "メガフライキラー",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1196,7 +1196,7 @@
     }]
 }, {
     "device": "エイリアンキラー",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1241,7 +1241,7 @@
     }]
 }, {
     "device": "マシーンキラー",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1286,7 +1286,7 @@
     }]
 }, {
     "device": "キメラキラー",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1331,7 +1331,7 @@
     }]
 }, {
     "device": "アルティメットキラー",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1376,7 +1376,7 @@
     }]
 }, {
     "device": "物理攻撃強化",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1421,7 +1421,7 @@
     }]
 }, {
     "device": "ビーム攻撃強化",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1466,7 +1466,7 @@
     }]
 }, {
     "device": "エーテル攻撃強化",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1511,7 +1511,7 @@
     }]
 }, {
     "device": "ヒート攻撃強化",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1556,7 +1556,7 @@
     }]
 }, {
     "device": "ボルト攻撃強化",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1601,7 +1601,7 @@
     }]
 }, {
     "device": "重力攻撃強化",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1646,7 +1646,7 @@
     }]
 }, {
     "device": "フロントアタック",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1691,7 +1691,7 @@
     }]
 }, {
     "device": "サイドアタック",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1736,7 +1736,7 @@
     }]
 }, {
     "device": "バックアタック",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1781,7 +1781,7 @@
     }]
 }, {
     "device": "ハイアタック",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1826,7 +1826,7 @@
     }]
 }, {
     "device": "格闘＋暗闇",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1871,7 +1871,7 @@
     }]
 }, {
     "device": "格闘＋格闘力低下",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1916,7 +1916,7 @@
     }]
 }, {
     "device": "格闘＋物理弱体",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -1961,7 +1961,7 @@
     }]
 }, {
     "device": "格闘＋ビーム弱体",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2006,7 +2006,7 @@
     }]
 }, {
     "device": "格闘＋エーテル弱体",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2051,7 +2051,7 @@
     }]
 }, {
     "device": "格闘＋ヒート弱体",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2096,7 +2096,7 @@
     }]
 }, {
     "device": "格闘＋ボルト弱体",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2141,7 +2141,7 @@
     }]
 }, {
     "device": "格闘＋重力弱体",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2186,7 +2186,7 @@
     }]
 }, {
     "device": "格闘＋炎熱",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2231,7 +2231,7 @@
     }]
 }, {
     "device": "格闘＋電撃",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2276,7 +2276,7 @@
     }]
 }, {
     "device": "格闘＋HP",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2321,7 +2321,7 @@
     }]
 }, {
     "device": "ソフトタッチ",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2366,7 +2366,7 @@
     }]
 }, {
     "device": "物理反射貫通",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2411,7 +2411,7 @@
     }]
 }, {
     "device": "ビーム反射貫通",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2456,7 +2456,7 @@
     }]
 }, {
     "device": "エーテル反射貫通",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2501,7 +2501,7 @@
     }]
 }, {
     "device": "ヒート反射貫通",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2546,7 +2546,7 @@
     }]
 }, {
     "device": "ボルト反射貫通",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2591,7 +2591,7 @@
     }]
 }, {
     "device": "重力反射貫通",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2636,7 +2636,7 @@
     }]
 }, {
     "device": "ギアカウントプラス",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "O.C.ギア",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2681,7 +2681,7 @@
     }]
 }, {
     "device": "ギアカウンター青",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "O.C.ギア",
     "type": [{
         "rank": "-",
@@ -2694,7 +2694,7 @@
     }]
 }, {
     "device": "ギアカウンター緑",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "O.C.ギア",
     "type": [{
         "rank": "-",
@@ -2707,7 +2707,7 @@
     }]
 }, {
     "device": "アーツ+TP",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2752,7 +2752,7 @@
     }]
 }, {
     "device": "アーツ+HP",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2797,7 +2797,7 @@
     }]
 }, {
     "device": "ダブリキャ短縮",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2842,7 +2842,7 @@
     }]
 }, {
     "device": "炎熱延長",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2887,7 +2887,7 @@
     }]
 }, {
     "device": "電撃延長",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2932,7 +2932,7 @@
     }]
 }, {
     "device": "物理弱体延長",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -2977,7 +2977,7 @@
     }]
 }, {
     "device": "ビーム弱体延長",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3022,7 +3022,7 @@
     }]
 }, {
     "device": "エーテル弱体延長",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3067,7 +3067,7 @@
     }]
 }, {
     "device": "ヒート弱体延長",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3112,7 +3112,7 @@
     }]
 }, {
     "device": "ボルト弱体延長",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3157,7 +3157,7 @@
     }]
 }, {
     "device": "重力弱体延長",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3202,7 +3202,7 @@
     }]
 }, {
     "device": "開幕＋ダメージ",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3247,7 +3247,7 @@
     }]
 }, {
     "device": "格闘抜刀プラス",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3292,7 +3292,7 @@
     }]
 }, {
     "device": "射撃抜刀プラス",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3337,7 +3337,7 @@
     }]
 }, {
     "device": "アーツ抜刀プラス",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3382,7 +3382,7 @@
     }]
 }, {
     "device": "会心プラス",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3427,7 +3427,7 @@
     }]
 }, {
     "device": "クラッシュプラス",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3472,7 +3472,7 @@
     }]
 }, {
     "device": "対巨大プラス",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3517,7 +3517,7 @@
     }]
 }, {
     "device": "アーツ特効プラス",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3562,7 +3562,7 @@
     }]
 }, {
     "device": "パーツクラッシャー",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "特殊",
     "type": [{
         "rank": "-",
@@ -3575,7 +3575,7 @@
     }]
 }, {
     "device": "クラッシュ＋TP",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3620,7 +3620,7 @@
     }]
 }, {
     "device": "射撃部位プラス",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3665,7 +3665,7 @@
     }]
 }, {
     "device": "夜間命中",
-    "class": "inner_wepon",
+    "class": "インナーウェポン",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3710,7 +3710,7 @@
     }]
 }, {
     "device": "HPMAXアップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3755,7 +3755,7 @@
     }]
 }, {
     "device": "TPMAXアップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3800,7 +3800,7 @@
     }]
 }, {
     "device": "回避アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3845,7 +3845,7 @@
     }]
 }, {
     "device": "潜在力アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3890,7 +3890,7 @@
     }]
 }, {
     "device": "HPMAXブースト",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3935,7 +3935,7 @@
     }]
 }, {
     "device": "TPMAXブースト",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -3980,7 +3980,7 @@
     }]
 }, {
     "device": "回避ブースト",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4025,7 +4025,7 @@
     }]
 }, {
     "device": "潜在力ブースト",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4070,7 +4070,7 @@
     }]
 }, {
     "device": "HPMAXドライブ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ドール強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4115,7 +4115,7 @@
     }]
 }, {
     "device": "GPMAXドライブ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ドール強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4160,7 +4160,7 @@
     }]
 }, {
     "device": "格闘命中ドライブ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ドール強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4205,7 +4205,7 @@
     }]
 }, {
     "device": "射撃命中ドライブ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ドール強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4250,7 +4250,7 @@
     }]
 }, {
     "device": "回避ドライブ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ドール強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4295,7 +4295,7 @@
     }]
 }, {
     "device": "格闘力ドライブ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ドール強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4340,7 +4340,7 @@
     }]
 }, {
     "device": "射撃力ドライブ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ドール強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4385,7 +4385,7 @@
     }]
 }, {
     "device": "潜在力ドライブ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ドール強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4430,7 +4430,7 @@
     }]
 }, {
     "device": "キャッチ＋燃料",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ドール強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4475,7 +4475,7 @@
     }]
 }, {
     "device": "燃料効率アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ドール強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4520,7 +4520,7 @@
     }]
 }, {
     "device": "物理耐性アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4565,7 +4565,7 @@
     }]
 }, {
     "device": "ビーム耐性アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4610,7 +4610,7 @@
     }]
 }, {
     "device": "エーテル耐性アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4655,7 +4655,7 @@
     }]
 }, {
     "device": "ヒート耐性アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4700,7 +4700,7 @@
     }]
 }, {
     "device": "ボルト耐性アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4745,7 +4745,7 @@
     }]
 }, {
     "device": "重力耐性アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4790,7 +4790,7 @@
     }]
 }, {
     "device": "崩し抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4835,7 +4835,7 @@
     }]
 }, {
     "device": "ひるみ抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4880,7 +4880,7 @@
     }]
 }, {
     "device": "転倒抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4925,7 +4925,7 @@
     }]
 }, {
     "device": "ノックバック抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -4970,7 +4970,7 @@
     }]
 }, {
     "device": "吹き飛び抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5015,7 +5015,7 @@
     }]
 }, {
     "device": "スタン抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5060,7 +5060,7 @@
     }]
 }, {
     "device": "スリープ抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5105,7 +5105,7 @@
     }]
 }, {
     "device": "挑発抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5150,7 +5150,7 @@
     }]
 }, {
     "device": "コントロール抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5195,7 +5195,7 @@
     }]
 }, {
     "device": "ウイルス抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5240,7 +5240,7 @@
     }]
 }, {
     "device": "ブラックサイト抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5285,7 +5285,7 @@
     }]
 }, {
     "device": "パワーダウン抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5330,7 +5330,7 @@
     }]
 }, {
     "device": "アーツスロウ抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5375,7 +5375,7 @@
     }]
 }, {
     "device": "物理弱体抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5420,7 +5420,7 @@
     }]
 }, {
     "device": "ビーム弱体抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5465,7 +5465,7 @@
     }]
 }, {
     "device": "エーテル弱体抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5510,7 +5510,7 @@
     }]
 }, {
     "device": "ヒート弱体抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5555,7 +5555,7 @@
     }]
 }, {
     "device": "ボルト弱体抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5600,7 +5600,7 @@
     }]
 }, {
     "device": "重力弱体抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5645,7 +5645,7 @@
     }]
 }, {
     "device": "カウントボム抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5690,7 +5690,7 @@
     }]
 }, {
     "device": "弱体抵抗ダウン抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5735,7 +5735,7 @@
     }]
 }, {
     "device": "HP回復量ダウン抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5780,7 +5780,7 @@
     }]
 }, {
     "device": "炎熱抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5825,7 +5825,7 @@
     }]
 }, {
     "device": "電撃抵抗",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5870,7 +5870,7 @@
     }]
 }, {
     "device": "アンチ弱体ボディ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5915,7 +5915,7 @@
     }]
 }, {
     "device": "カウンターHP",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -5960,7 +5960,7 @@
     }]
 }, {
     "device": "カウンターTP",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6005,7 +6005,7 @@
     }]
 }, {
     "device": "挑発＋防御アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6050,7 +6050,7 @@
     }]
 }, {
     "device": "挑発＋回避アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6095,7 +6095,7 @@
     }]
 }, {
     "device": "挑発＋攻撃アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6140,7 +6140,7 @@
     }]
 }, {
     "device": "転倒＋防御アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6185,7 +6185,7 @@
     }]
 }, {
     "device": "転倒＋回避アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6230,7 +6230,7 @@
     }]
 }, {
     "device": "スタン＋防御アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6275,7 +6275,7 @@
     }]
 }, {
     "device": "スタン＋回避アップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6320,7 +6320,7 @@
     }]
 }, {
     "device": "反射ダメージアップ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6365,7 +6365,7 @@
     }]
 }, {
     "device": "ギア＋HP",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "O.C.ギア",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6410,7 +6410,7 @@
     }]
 }, {
     "device": "ギア＋TP",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "O.C.ギア",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6455,7 +6455,7 @@
     }]
 }, {
     "device": "ギアタイム延長",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "O.C.ギア",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6500,7 +6500,7 @@
     }]
 }, {
     "device": "オーラ効果延長",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6545,7 +6545,7 @@
     }]
 }, {
     "device": "オーラリキャ短縮",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6590,7 +6590,7 @@
     }]
 }, {
     "device": "オーラ+燃料",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6635,7 +6635,7 @@
     }]
 }, {
     "device": "挑発延長",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6680,7 +6680,7 @@
     }]
 }, {
     "device": "コントロール延長",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6725,7 +6725,7 @@
     }]
 }, {
     "device": "ウイルス延長",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6770,7 +6770,7 @@
     }]
 }, {
     "device": "ブラックサイト延長",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6815,7 +6815,7 @@
     }]
 }, {
     "device": "パワーダウン延長",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6860,7 +6860,7 @@
     }]
 }, {
     "device": "アーツスロウ延長",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6905,7 +6905,7 @@
     }]
 }, {
     "device": "弱体抵抗ダウン延長",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6950,7 +6950,7 @@
     }]
 }, {
     "device": "ピンチプラス",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -6995,7 +6995,7 @@
     }]
 }, {
     "device": "大ピンチプラス",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7040,7 +7040,7 @@
     }]
 }, {
     "device": "戦闘不能プラス",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7085,7 +7085,7 @@
     }]
 }, {
     "device": "オーラ発動プラス",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7130,7 +7130,7 @@
     }]
 }, {
     "device": "ギア発動プラス",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "ソウルボイス",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7175,7 +7175,7 @@
     }]
 }, {
     "device": "リベンジボディ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7220,7 +7220,7 @@
     }]
 }, {
     "device": "経験豊富",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7265,7 +7265,7 @@
     }]
 }, {
     "device": "ステルスアイ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7310,7 +7310,7 @@
     }]
 }, {
     "device": "ステルスボディ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7355,7 +7355,7 @@
     }]
 }, {
     "device": "地形ダメージ軽減",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7400,7 +7400,7 @@
     }]
 }, {
     "device": "アンチスパイク",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7445,7 +7445,7 @@
     }]
 }, {
     "device": "レジストダウナー",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7490,7 +7490,7 @@
     }]
 }, {
     "device": "トレジャーセンサー",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7535,7 +7535,7 @@
     }]
 }, {
     "device": "ベストダッシュ",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7580,7 +7580,7 @@
     }]
 }, {
     "device": "回避集中",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7625,7 +7625,7 @@
     }]
 }, {
     "device": "雨ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7638,7 +7638,7 @@
     }]
 }, {
     "device": "豪雨ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7651,7 +7651,7 @@
     }]
 }, {
     "device": "雷雨ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7664,7 +7664,7 @@
     }]
 }, {
     "device": "濃霧ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7677,7 +7677,7 @@
     }]
 }, {
     "device": "熱波ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7690,7 +7690,7 @@
     }]
 }, {
     "device": "砂嵐ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7703,7 +7703,7 @@
     }]
 }, {
     "device": "電磁嵐ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7716,7 +7716,7 @@
     }]
 }, {
     "device": "滞空粒子ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7729,7 +7729,7 @@
     }]
 }, {
     "device": "上昇粒子ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7742,7 +7742,7 @@
     }]
 }, {
     "device": "胞子ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7755,7 +7755,7 @@
     }]
 }, {
     "device": "炎雨ブロック",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -7768,7 +7768,7 @@
     }]
 }, {
     "device": "ウェザーマスター",
-    "class": "inner_suit",
+    "class": "インナースーツ",
     "feat": "天候対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7813,7 +7813,7 @@
     }]
 }, {
     "device": "SpecUp.F-DEX",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7858,7 +7858,7 @@
     }]
 }, {
     "device": "SpecUp.S-DEX",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7903,7 +7903,7 @@
     }]
 }, {
     "device": "SpecUp.F-POW",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7948,7 +7948,7 @@
     }]
 }, {
     "device": "SpecUp.S-POW",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -7993,7 +7993,7 @@
     }]
 }, {
     "device": "SpecUp.M-POW",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8038,7 +8038,7 @@
     }]
 }, {
     "device": "Custom.WP-POW",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8083,7 +8083,7 @@
     }]
 }, {
     "device": "Custom.WP-BALANCE",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8128,7 +8128,7 @@
     }]
 }, {
     "device": "Custom.WP-BREAKER",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8173,7 +8173,7 @@
     }]
 }, {
     "device": "Custom.WP-F-GP",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "-",
@@ -8186,7 +8186,7 @@
     }]
 }, {
     "device": "Custom.WP-S-GP",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "-",
@@ -8199,7 +8199,7 @@
     }]
 }, {
     "device": "Custom.WP-SPEED",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8244,7 +8244,7 @@
     }]
 }, {
     "device": "Custom.WP-RANGE",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8289,7 +8289,7 @@
     }]
 }, {
     "device": "Custom.WP-FUEL",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "武器性能カスタム",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8334,7 +8334,7 @@
     }]
 }, {
     "device": "CriticalUp.",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8379,7 +8379,7 @@
     }]
 }, {
     "device": "CriticalUp.BEAST",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8424,7 +8424,7 @@
     }]
 }, {
     "device": "CriticalUp.INSECT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8469,7 +8469,7 @@
     }]
 }, {
     "device": "CriticalUp.MEGAFLY",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8514,7 +8514,7 @@
     }]
 }, {
     "device": "CriticalUp.ALIEN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8559,7 +8559,7 @@
     }]
 }, {
     "device": "CriticalUp.MACHINE",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8604,7 +8604,7 @@
     }]
 }, {
     "device": "CriticalUp.CHIMERA",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8649,7 +8649,7 @@
     }]
 }, {
     "device": "CriticalUp.ULTIMATE",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "会心性能強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8694,7 +8694,7 @@
     }]
 }, {
     "device": "KillerDmg.BEAST",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8739,7 +8739,7 @@
     }]
 }, {
     "device": "KillerDmg.INSECT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8784,7 +8784,7 @@
     }]
 }, {
     "device": "KillerDmg.MEGAFLY",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8829,7 +8829,7 @@
     }]
 }, {
     "device": "KillerDmg.ALIEN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8874,7 +8874,7 @@
     }]
 }, {
     "device": "KillerDmg.MACHINE",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8919,7 +8919,7 @@
     }]
 }, {
     "device": "KillerDmg.CHIMERA",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -8964,7 +8964,7 @@
     }]
 }, {
     "device": "KillerDmg.ULTIMATE",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "種族特攻",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9009,7 +9009,7 @@
     }]
 }, {
     "device": "F-AT.BLACKSIGHT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9054,7 +9054,7 @@
     }]
 }, {
     "device": "F-AT.POWERDOWN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9099,7 +9099,7 @@
     }]
 }, {
     "device": "F-AT.PHY-DOWN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9144,7 +9144,7 @@
     }]
 }, {
     "device": "F-AT.BEAM-DOWN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9189,7 +9189,7 @@
     }]
 }, {
     "device": "F-AT.ETHER-DOWN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9234,7 +9234,7 @@
     }]
 }, {
     "device": "F-AT.HEAT^DOWN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9279,7 +9279,7 @@
     }]
 }, {
     "device": "F-AT.VOLT-DOWN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9324,7 +9324,7 @@
     }]
 }, {
     "device": "F-AT.GRAVITY-DOWN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9369,7 +9369,7 @@
     }]
 }, {
     "device": "F-AT.DOT-HEAT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9414,7 +9414,7 @@
     }]
 }, {
     "device": "F-AT.DOT-VOLT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9459,7 +9459,7 @@
     }]
 }, {
     "device": "F-AT.HEAL-HP",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9504,7 +9504,7 @@
     }]
 }, {
     "device": "Reflection.N-PHYSICS",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9549,7 +9549,7 @@
     }]
 }, {
     "device": "Reflection.N-BEAM",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9594,7 +9594,7 @@
     }]
 }, {
     "device": "Reflection.N-ETHER",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9639,7 +9639,7 @@
     }]
 }, {
     "device": "Reflection.N-HEAT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9684,7 +9684,7 @@
     }]
 }, {
     "device": "Reflection.N-VOLT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9729,7 +9729,7 @@
     }]
 }, {
     "device": "Reflection.N-GRAVITY",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9774,7 +9774,7 @@
     }]
 }, {
     "device": "Arts.GP",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9819,7 +9819,7 @@
     }]
 }, {
     "device": "TimeEx.TAUNT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9864,7 +9864,7 @@
     }]
 }, {
     "device": "TimeEx.SLEEP",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9909,7 +9909,7 @@
     }]
 }, {
     "device": "TimeEx.VIRUS",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9954,7 +9954,7 @@
     }]
 }, {
     "device": "TimeEx.BLACKSIGHT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -9999,7 +9999,7 @@
     }]
 }, {
     "device": "TimeEx.POWERDOWN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10044,7 +10044,7 @@
     }]
 }, {
     "device": "TimeEx.ARTSSLOW",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10089,7 +10089,7 @@
     }]
 }, {
     "device": "TimeEx.DEBUFFDOWN",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10134,7 +10134,7 @@
     }]
 }, {
     "device": "TimeEx.DOT-HEAT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10179,7 +10179,7 @@
     }]
 }, {
     "device": "TimeEx.DOT-VOLT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10224,7 +10224,7 @@
     }]
 }, {
     "device": "TimeEx.ANTI-PHY",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10269,7 +10269,7 @@
     }]
 }, {
     "device": "TimeEx.ANTI-BEAM",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10314,7 +10314,7 @@
     }]
 }, {
     "device": "TimeEx.ANTI-ETHER",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10359,7 +10359,7 @@
     }]
 }, {
     "device": "TimeEx.ANTI-HEAT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10404,7 +10404,7 @@
     }]
 }, {
     "device": "TimeEx.ANTI-VOLT",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10449,7 +10449,7 @@
     }]
 }, {
     "device": "TimeEx.ANTI-GRAVITY",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10494,7 +10494,7 @@
     }]
 }, {
     "device": "Start.ARTS-ATTACK",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "アーツスペック",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10539,7 +10539,7 @@
     }]
 }, {
     "device": "Crash.PARTS",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10584,7 +10584,7 @@
     }]
 }, {
     "device": "Night.FS-DEXUP",
-    "class": "doll_wepon",
+    "class": "ドールウェポン",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10629,7 +10629,7 @@
     }]
 }, {
     "device": "SpecUp.HPMAX",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10674,7 +10674,7 @@
     }]
 }, {
     "device": "SpecUp.Eva",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10719,7 +10719,7 @@
     }]
 }, {
     "device": "SpecUp.PARTS-HP",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10764,7 +10764,7 @@
     }]
 }, {
     "device": "SpecUp.DEF-PHYSICS",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10809,7 +10809,7 @@
     }]
 }, {
     "device": "SpecUp.DEF-BEAM",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10854,7 +10854,7 @@
     }]
 }, {
     "device": "SpecUp.DEF-ETHER",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10899,7 +10899,7 @@
     }]
 }, {
     "device": "SpecUp.DEF-HEAT",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10944,7 +10944,7 @@
     }]
 }, {
     "device": "SpecUp.DEF-VOLT",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -10989,7 +10989,7 @@
     }]
 }, {
     "device": "SpecUp.DEF-GRAVITY",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "ダメージ属性耐性",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11034,7 +11034,7 @@
     }]
 }, {
     "device": "Resist.BREAK",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11079,7 +11079,7 @@
     }]
 }, {
     "device": "Resist.FLINCH",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11124,7 +11124,7 @@
     }]
 }, {
     "device": "Resist.DOWN",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11169,7 +11169,7 @@
     }]
 }, {
     "device": "Resist.KNOCKBACK",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11214,7 +11214,7 @@
     }]
 }, {
     "device": "Resist.BLOW",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11259,7 +11259,7 @@
     }]
 }, {
     "device": "Resist.STAN",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11304,7 +11304,7 @@
     }]
 }, {
     "device": "Resist.SLEEP",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11349,7 +11349,7 @@
     }]
 }, {
     "device": "Resist.TAUNT",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11394,7 +11394,7 @@
     }]
 }, {
     "device": "Resist.CONTROL",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11439,7 +11439,7 @@
     }]
 }, {
     "device": "Resist.VIRUS",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11484,7 +11484,7 @@
     }]
 }, {
     "device": "Resist.BLACKSIGHT",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11529,7 +11529,7 @@
     }]
 }, {
     "device": "Resist.POWERDOEN",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11574,7 +11574,7 @@
     }]
 }, {
     "device": "Resist.ARTSSLOW",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11619,7 +11619,7 @@
     }]
 }, {
     "device": "Resist.ANTI-PHY",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11664,7 +11664,7 @@
     }]
 }, {
     "device": "Resist.ANTI-BEAM",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11709,7 +11709,7 @@
     }]
 }, {
     "device": "Resist.ANTI-ETHER",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11754,7 +11754,7 @@
     }]
 }, {
     "device": "Resist.ANTI-HEAT",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11799,7 +11799,7 @@
     }]
 }, {
     "device": "Resist.ANTI-VOLT",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11844,7 +11844,7 @@
     }]
 }, {
     "device": "Resist.ANTI-GRAVITY",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11889,7 +11889,7 @@
     }]
 }, {
     "device": "Resist.COUNTBOM",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11934,7 +11934,7 @@
     }]
 }, {
     "device": "Resist.ANTI-DEBUFF",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -11979,7 +11979,7 @@
     }]
 }, {
     "device": "Resist.FLAME",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12024,7 +12024,7 @@
     }]
 }, {
     "device": "Resist.VOLT",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12069,7 +12069,7 @@
     }]
 }, {
     "device": "Damage.GP",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12114,7 +12114,7 @@
     }]
 }, {
     "device": "Damage.PARTS",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12159,7 +12159,7 @@
     }]
 }, {
     "device": "Jamming.",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12204,7 +12204,7 @@
     }]
 }, {
     "device": "Reflection.DAMAGEUP",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12249,7 +12249,7 @@
     }]
 }, {
     "device": "Stealth.EYE",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12294,7 +12294,7 @@
     }]
 }, {
     "device": "Stealth.BODY",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12339,7 +12339,7 @@
     }]
 }, {
     "device": "Crash.GP",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12384,7 +12384,7 @@
     }]
 }, {
     "device": "Spike.EVA",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12429,7 +12429,7 @@
     }]
 }, {
     "device": "Weather.DEF-HARDRAIN",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -12442,7 +12442,7 @@
     }]
 }, {
     "device": "Weather.DEF-FOG",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -12455,7 +12455,7 @@
     }]
 }, {
     "device": "Weather.DEF-SANDSTORM",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -12468,7 +12468,7 @@
     }]
 }, {
     "device": "Weather.DEF-ELECTROSTORM",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -12481,7 +12481,7 @@
     }]
 }, {
     "device": "Weather.DEF-LIGHTFOG",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -12494,7 +12494,7 @@
     }]
 }, {
     "device": "Weather.DEF-LIGHTSTORM",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -12507,7 +12507,7 @@
     }]
 }, {
     "device": "Weather.DEF-SPORE",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "天候対策",
     "type": [{
         "rank": "-",
@@ -12520,7 +12520,7 @@
     }]
 }, {
     "device": "Weather.DEF-DAMAGE",
-    "class": "doll_armor",
+    "class": "ドールアーマー",
     "feat": "天候対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12565,7 +12565,7 @@
     }]
 }, {
     "device": "Boost.HPMAX",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12610,7 +12610,7 @@
     }]
 }, {
     "device": "Boost.F-DEX",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12655,7 +12655,7 @@
     }]
 }, {
     "device": "Boost.S-DEX",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12700,7 +12700,7 @@
     }]
 }, {
     "device": "Boost.Eva-R",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12745,7 +12745,7 @@
     }]
 }, {
     "device": "Boost.F-POW",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12790,7 +12790,7 @@
     }]
 }, {
     "device": "Boost.S-POW",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12835,7 +12835,7 @@
     }]
 }, {
     "device": "Boost.M-POW",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "ステータス強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12880,7 +12880,7 @@
     }]
 }, {
     "device": "SpecUp.FUEL-MAX",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "燃料",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12925,7 +12925,7 @@
     }]
 }, {
     "device": "SpecUp.FUEL-COST",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "燃料",
     "type": [{
         "rank": "ⅩⅩ",
@@ -12970,7 +12970,7 @@
     }]
 }, {
     "device": "SpecUp.FUEL-PARK",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "燃料",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13015,7 +13015,7 @@
     }]
 }, {
     "device": "SpecUp.FUEL-CATCH",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "燃料",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13060,7 +13060,7 @@
     }]
 }, {
     "device": "SpecUp.FUEL-GEAR",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "燃料",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13105,7 +13105,7 @@
     }]
 }, {
     "device": "CutTime.DEBUFF",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "弱体抵抗",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13150,7 +13150,7 @@
     }]
 }, {
     "device": "ElementDmg.PHYSICS",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13195,7 +13195,7 @@
     }]
 }, {
     "device": "ElementDmg.BEAM",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13240,7 +13240,7 @@
     }]
 }, {
     "device": "ElementDmg.ETHER",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13285,7 +13285,7 @@
     }]
 }, {
     "device": "ElementDmg.HEAT",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13330,7 +13330,7 @@
     }]
 }, {
     "device": "ElementDmg.VOLT",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13375,7 +13375,7 @@
     }]
 }, {
     "device": "ElementDmg.GRAVITY",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13420,7 +13420,7 @@
     }]
 }, {
     "device": "PosDmg.FRONT",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13465,7 +13465,7 @@
     }]
 }, {
     "device": "PosDmg.SIDE",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13510,7 +13510,7 @@
     }]
 }, {
     "device": "PosDmg.BACK",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13555,7 +13555,7 @@
     }]
 }, {
     "device": "PosDmg.HIGH",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "攻撃強化",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13600,7 +13600,7 @@
     }]
 }, {
     "device": "PartsLost.ATTACKUP",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13645,7 +13645,7 @@
     }]
 }, {
     "device": "PartsLost.EVAUP",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13690,7 +13690,7 @@
     }]
 }, {
     "device": "PartsLost.GP",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "被ダメージ対策",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13735,7 +13735,7 @@
     }]
 }, {
     "device": "O.C.GEAR.FRAMEHP",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "O.C.ギア",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13780,7 +13780,7 @@
     }]
 }, {
     "device": "O.C.GEAR.PARTSHP",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "O.C.ギア",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13825,7 +13825,7 @@
     }]
 }, {
     "device": "O.C.GEAR.CONTINUE",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "O.C.ギア",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13870,7 +13870,7 @@
     }]
 }, {
     "device": "Vehicle.DEF-PARTS",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13915,7 +13915,7 @@
     }]
 }, {
     "device": "Vehicle.DEF-FRAME",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
@@ -13960,7 +13960,7 @@
     }]
 }, {
     "device": "Vehicle.DEF-PARTS",
-    "class": "doll_frame",
+    "class": "ドールフレーム",
     "feat": "特殊",
     "type": [{
         "rank": "ⅩⅩ",
