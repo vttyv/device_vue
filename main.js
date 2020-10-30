@@ -19,7 +19,6 @@ var todoStorage = {
 // ★STEP1
 var app = new Vue({
   el: '#app',
-
   data: {
     // ★STEP5 localStorage から 取得した ToDo のリスト
     todos: [],
