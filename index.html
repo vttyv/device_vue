@@ -3,20 +3,23 @@
 
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-125353127-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8KR9S0EYH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-125353127-1');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-N8KR9S0EYH');
+  </script>
 
   <meta charset="utf-8">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@vtytvm" />
   <meta property="og:url" content="https://xx-device.herokuapp.com/" />
-  <meta property="og:title" content="XenobladeXデバイスリスト" /> 
+  <meta property="og:title" content="XenobladeXデバイスリスト" />
   <meta property="og:site_name" content="XenobladeXデバイスリスト ベータ" />
   <meta property="og:description" content="ゼノブレイドクロスでデバイス作る時、少し役に立つかもしれないツールを置いておきます。" />
   <meta property="og:image" content="んなもんねーよ" />
@@ -98,11 +101,12 @@
         <!-- コメント入力フォーム -->
         <label for="">デバイス名
           <input type="search" list="devices" v-model="keyword" placeholder="デバイス名を入力" autocomplete="on">
-          <datalist id="devices" >
-            <option v-for="item in devices" v-bind:value=item.device v-bind:label=item.type[0].tips>{{item.device}}</option>
+          <datalist id="devices">
+            <option v-for="item in devices" v-bind:value=item.device v-bind:label=item.type[0].tips>{{item.device}}
+            </option>
           </datalist>
 
-          <input type="search" list="materials" v-model="mtr_name" placeholder="素材名から検索" autocomplete="on" >
+          <input type="search" list="materials" v-model="mtr_name" placeholder="素材名から検索" autocomplete="on">
           <!-- <datalist id="materials">
             <option v-for="item in materials" v-bind:value=item.material >{{item.material}}</option>
           </datalist> -->
@@ -126,7 +130,7 @@
                   </span>
                 </td>
               </tr>
-          </template>
+            </template>
           </tbody>
         </table>
     </div>
