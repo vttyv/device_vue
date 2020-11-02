@@ -16,7 +16,7 @@
   </script>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@vtytvm" />
   <meta property="og:url" content="https://xx-device.herokuapp.com/" />
@@ -60,7 +60,7 @@
           <tr v-for="item in computedTodos" v-bind:key="item.id" v-bind:id="'item-'+item.id"
             v-bind:class="{done:item.state}">
             <td>
-              <p>{{item.cate}}<br>{{item.device}}{{item.comment.rank}} <br class="sp_br">{{item.comment.tips}}</p>
+              <p>{{item.cate}}<br><span class="device">{{item.device}}{{item.comment.rank}}</span> <br class="sp_br">{{item.comment.tips}}</p>
               <p v-for="(mt, index) in item.comment.materials">
                 <span v-text="mt"></span>
                 <span v-text="item.comment.material_num[index]+'コ'"></span><br class="sp_br">
@@ -87,8 +87,7 @@
               <!-- ★STEP10 状態変更ボタン -->
               <button v-on:click="doChangeState(item)">
                 {{ labels[item.state] }}
-              </button>
-
+              </button><br class="sp_br">
               <!-- ★STEP10 削除ボタン -->
               <button v-on:click="doRemove(item)">
                 削除
@@ -121,7 +120,7 @@
           <tbody v-for="device in matcheMaterial">
             <template v-for="(item, i) in device.type" :key="item.id">
               <tr>
-                <td v-if="i == 0" v-bind:rowspan="device.type.length*2">{{device.device}}</td>
+                <td v-if="i == 0" v-bind:rowspan="device.type.length*2" class="device">{{device.device}}</td>
                 <td>{{item.rank}}</td>
                 <td><input type="button" v-on:click="doAdd(device,item)" value="追加"></td>
                 <td>{{item.tips}}</td>

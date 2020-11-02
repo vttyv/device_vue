@@ -32,6 +32,12 @@
     }
 }
 
+.device {
+    @media screen and (max-width: 820px) {
+        font-weight: bold;
+    }
+}
+
 table {
     width: 100%;
     border-collapse: separate;
@@ -64,6 +70,11 @@ table {
         }
         td.button,td.state {
             text-align: center;
+        }
+    }
+    @media screen and (max-width: 820px) {
+        td.device {
+            display: block;
         }
     }
 }
