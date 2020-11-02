@@ -75,7 +75,8 @@
                 <span v-text="item.comment.rsrc_num"></span>
                 <span> ミラニウム:</span>
                 <span id="mira-cost" v-text="item.comment.cost"></span>
-                <span> 累計枚数:</span>
+                <span> 最大必要枚数:</span>
+                <span id="mira-cost" v-text="sumsTickets(item.comment.ticket)"></span>
 
               </p>
             </td>

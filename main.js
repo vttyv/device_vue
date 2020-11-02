@@ -30,6 +30,7 @@ var app = new Vue({
     tickets: [],
     devices: [],
     materials:[],
+    r_src:[],
     options: [
       { value: -1, label: 'すべて' },
       { value: 0 , label: '作成中' },
@@ -78,6 +79,7 @@ var app = new Vue({
       }
       return Math.ceil(sum/327);
     },
+
     computedMiraCost: function () {
       return this.todos.filter(function (el) {
         return this.current < 0 ? true : this.current === el.state
@@ -170,8 +172,9 @@ var app = new Vue({
       // 作業状態「state」はデフォルト「作業中=0」で作成
       value.ticket = [];
       for( i = 0; i < value.materials.length; i++ ) {
-        console.log(i);
-        console.log(this.materials[value.materials[i]].ticket);
+        // console.log(i);
+        // console.log(this.materials[value.materials[i]].ticket);
+        value.sum_ticket = 0,
         value.ticket[i] = this.materials[value.materials[i]].ticket * value.material_num[i];
         if( this.materials[value.materials[i]].trade ){
           this.tickets.push(todoStorage.uid+"-"+i);
@@ -189,7 +192,9 @@ var app = new Vue({
     // addTiket: function(value,check) {
       
     // },
-
+    sumsTickets: function(array_data) {
+      return array_data.reduce((p, x) => p + x, 0)
+    },
     // ★STEP10 状態変更の処理
     doChangeState: function (item) {
       item.state = !item.state ? 1 : 0
