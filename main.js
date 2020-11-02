@@ -96,12 +96,12 @@ var app = new Vue({
       var devices = [];
       var keyword = this.keyword.trim();
       var mtr_name = this.mtr_name.trim();
-      if(this.mtr_name.length > 2) {
+      if(this.mtr_name.length > 1) {
         for(var i in this.devices) {
             var device = this.devices[i];
             t = [];
             device.type.forEach( type =>{
-              if(type.materials.join('').match(new RegExp(this.mtr_name))){
+              if(type.materials.join('').match(new RegExp(this.mtr_name,'i'))){
                 t.push(type)
                 // console.log(t);
               }
@@ -119,7 +119,7 @@ var app = new Vue({
         if( keyword.length == 0)
           return el;
         else 
-          return el.device.match(new RegExp(keyword.trim()))
+          return el.device.match(new RegExp(keyword.trim(),'i'))
       });
     }
   },
@@ -170,6 +170,8 @@ var app = new Vue({
       // 作業状態「state」はデフォルト「作業中=0」で作成
       value.ticket = [];
       for( i = 0; i < value.materials.length; i++ ) {
+        console.log(i);
+        console.log(this.materials[value.materials[i]].ticket);
         value.ticket[i] = this.materials[value.materials[i]].ticket * value.material_num[i];
         if( this.materials[value.materials[i]].trade ){
           this.tickets.push(todoStorage.uid+"-"+i);
