@@ -16,6 +16,7 @@
   </script>
 
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@vtytvm" />
   <meta property="og:url" content="https://xx-device.herokuapp.com/" />
@@ -34,16 +35,18 @@
       <h1>XenobladeXデバイスリスト</h1>
 
       <!-- ★STEP11 -->
-      <label v-for="label in options">
-        <input type="radio" v-model="current" v-bind:value="label.value">{{ label.label }}
-      </label>
+      <p>
+        <label class="checkbox" v-for="label in options">
+          <input type="radio" v-model="current" v-bind:value="label.value">{{ label.label }}
+        </label>
 
-      <!-- ★STEP12 -->
-      <span>
-        （{{ computedTodos.length }} 件を表示）<br>
-        チケット必要枚数:{{ computedTiketSum }},ミラニウム:{{computedMiraCost}}
-      </span><br>
-      <span>端末を{{ computedOrbit }}周しましょう</span>
+        <!-- ★STEP12 -->
+        <span>
+          （{{ computedTodos.length }} 件を表示）<br>
+          チケット必要枚数:{{ computedTiketSum }},ミラニウム:{{computedMiraCost}}
+        </span><br>
+        <span>端末を{{ computedOrbit }}周しましょう</span>
+    </p>
       <!-- ★STEP4 リスト用テーブル -->
       <table>
         <thead v-pre>
@@ -57,10 +60,10 @@
           <tr v-for="item in computedTodos" v-bind:key="item.id" v-bind:id="'item-'+item.id"
             v-bind:class="{done:item.state}">
             <td>
-              <p>{{item.cate}}<br>{{item.device}}{{item.comment.rank}} {{item.comment.tips}}</p>
+              <p>{{item.cate}}<br>{{item.device}}{{item.comment.rank}} <br class="sp_br">{{item.comment.tips}}</p>
               <p v-for="(mt, index) in item.comment.materials">
                 <span v-text="mt"></span>
-                <span v-text="item.comment.material_num[index]+'コ'"></span>
+                <span v-text="item.comment.material_num[index]+'コ'"></span><br class="sp_br">
                 <label v-if="materials[mt]" :id="'ticket-'+item.id+'-'+index"><input type="checkbox"
                     v-bind:value="item.id+'-'+index" v-model="tickets">{{item.comment.ticket[index]}}</label>
                 <span v-if="materials[mt]" v-text="'ﾄﾞﾛｯﾌ:ﾟ'+materials[mt].break"></span>
@@ -74,7 +77,7 @@
 
                 <span v-text="item.comment.rsrc_num"></span>
                 <span> ミラニウム:</span>
-                <span id="mira-cost" v-text="item.comment.cost"></span>
+                <span id="mira-cost" v-text="item.comment.cost"></span><br class="sp_br">
                 <span> 最大必要枚数:</span>
                 <span id="mira-cost" v-text="sumsTickets(item.comment.ticket)"></span>
 
@@ -103,8 +106,7 @@
         <label for="">デバイス名
           <input type="search" list="devices" v-model="keyword" placeholder="デバイス名を入力" autocomplete="on">
           <datalist id="devices">
-            <option v-for="item in devices" v-bind:value=item.device v-bind:label=item.type[0].tips>{{item.device}}
-            </option>
+            <option v-for="item in devices" v-bind:value=item.device v-bind:label=item.type[0].tips>{{item.device}}</option>
           </datalist>
 
           <input type="search" list="materials" v-model="mtr_name" placeholder="素材名から検索" autocomplete="on">
