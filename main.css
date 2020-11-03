@@ -132,6 +132,10 @@ table .leftside {
   text-align: left;
 }
 
+table td.button {
+  width: 20px;
+}
+
 table .t_sp {
   display: none;
 }

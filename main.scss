@@ -88,7 +88,6 @@ table {
         }
     }
 
-
     tbody tr {
         td,th {
             border-bottom: 1px solid #ccc;
@@ -104,6 +103,9 @@ table {
     }
     .leftside {
         text-align: left;
+    }
+    td.button {
+        width: 20px;
     }
     .t_sp {
         display: none;

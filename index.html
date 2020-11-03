@@ -119,12 +119,12 @@
         <table style="padding-top: 20px;">
           <tbody v-for="device in matcheMaterial">
             <template v-for="(item, i) in device.type" :key="item.id">
-              <tr>
-                <td v-if="i == 0" colspan="3" class="device name t_sp">{{device.device}}</td>
+              <tr v-if="i == 0">
+                <td colspan="4" class="device name t_sp">{{device.device}}</td>
               </tr>
               <tr>
                 <td v-if="i == 0" v-bind:rowspan="device.type.length*2" class="device t_pc">{{device.device}}</td>
-                <td class="leftside">{{item.rank}}</td><td><input type="button" v-on:click="doAdd(device,item)" value="追加"></td>
+                <td class="leftside">{{item.rank}}</td><td class="button"><input type="button" v-on:click="doAdd(device,item)" value="追加"></td>
                 <td class="tips">{{item.tips}}</td>
               </tr>
               <tr>
