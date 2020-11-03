@@ -81,7 +81,7 @@ table {
     }
     td,th {
         padding: 0 8px;
-        line-height: 40px;
+        line-height: 25px;
         @media screen and (max-width: 820px) {
             padding: 0 4px;
             line-height: 25px;
@@ -92,7 +92,7 @@ table {
         td,th {
             border-bottom: 1px solid #ccc;
             transition: all 0.4s;
-            padding: 7px 0px;
+            padding: 5px 0px;
             @media screen and (max-width: 820px) {
                 padding: 3px 0px;
             }

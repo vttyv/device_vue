@@ -101,7 +101,7 @@ table thead th {
 
 table td, table th {
   padding: 0 8px;
-  line-height: 40px;
+  line-height: 25px;
 }
 
 @media screen and (max-width: 820px) {
@@ -115,7 +115,7 @@ table tbody tr td, table tbody tr th {
   border-bottom: 1px solid #ccc;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  padding: 7px 0px;
+  padding: 5px 0px;
 }
 
 @media screen and (max-width: 820px) {
