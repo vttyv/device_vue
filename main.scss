@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+}
 .tb_br {
     display: none;
     @media screen and (max-width: 1024px) {
@@ -15,6 +18,12 @@
         display: block;
     }
 }
+.sp_none {
+    display: inline-block;
+    @media screen and (max-width: 820px) {
+        display: none;
+    }
+}
 #app {
     max-width: 800px;
     margin: 0 auto;
@@ -23,11 +32,17 @@
         h1{
             font-size: 20px;
         }
+        h2 {
+            font-size: 18px;
+        }
         .checkbox{
             font-size: 14px;
         }
         table{
             font-size: 16px;
+        }
+        p {
+            font-size: 15px;
         }
     }
 }
@@ -39,26 +54,25 @@
 }
 
 table {
-    width: 100%;
     border-collapse: separate;
+    table-layout: auto;
+    width: 100%;
 
+    th.state {
+        width: 60px;
+    }
     thead th {
         border-bottom: 2px solid #0099e4;
         /*#d31c4a */
         color: #0099e4;
     }
-    th.state {
-        width: 100px;
-    }
-    th.button {
-        width: 60px;
-    }
-    th.id {
-        width: 50px;
-    }
     td,th {
         padding: 0 8px;
         line-height: 40px;
+        @media screen and (max-width: 820px) {
+            padding: 0 4px;
+            line-height: 25px;
+        }
     }
 
 
@@ -67,14 +81,37 @@ table {
             border-bottom: 1px solid #ccc;
             transition: all 0.4s;
             padding: 7px 0px;
+            @media screen and (max-width: 820px) {
+                padding: 3px 0px;
+            }
         }
         td.button,td.state {
             text-align: center;
         }
     }
+    .leftside {
+        text-align: left;
+    }
+    .t_sp {
+        display: none;
+    }
+    .t_pc {
+        display: table-cell;
+    }
     @media screen and (max-width: 820px) {
-        td.device {
-            display: block;
+        .t_pc {
+            display: none;
+        }
+        .t_sp {
+            display: table-cell;
+        }
+        .name {
+            width: 100%;
+            text-align: center;
+        }
+        .tips {
+            font-size: 12px;
+            font-weight: bold;
         }
     }
 }

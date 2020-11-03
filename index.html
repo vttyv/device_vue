@@ -16,7 +16,7 @@
   </script>
 
   <meta charset="utf-8">
-  <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@vtytvm" />
   <meta property="og:url" content="https://xx-device.herokuapp.com/" />
@@ -62,13 +62,13 @@
             <td>
               <p>{{item.cate}}<br><span class="device">{{item.device}}{{item.comment.rank}}</span> <br class="sp_br">{{item.comment.tips}}</p>
               <p v-for="(mt, index) in item.comment.materials">
-                <span v-text="mt"></span>
+                <label v-if="materials[mt]" :id="'ticket-'+item.id+'-'+index"><span v-text="mt"></span>
                 <span v-text="item.comment.material_num[index]+'コ'"></span><br class="sp_br">
-                <label v-if="materials[mt]" :id="'ticket-'+item.id+'-'+index"><input type="checkbox"
-                    v-bind:value="item.id+'-'+index" v-model="tickets">{{item.comment.ticket[index]}}</label>
+                <input type="checkbox"
+                    v-bind:value="item.id+'-'+index" v-model="tickets">{{item.comment.ticket[index]}}
                 <span v-if="materials[mt]" v-text="'ﾄﾞﾛｯﾌ:ﾟ'+materials[mt].break"></span>
                 <br>
-                <span v-if="materials[mt]">{{materials[mt].info}}</span>
+                <span v-if="materials[mt]">{{materials[mt].info}}</span></label>
               </p>
               <!-- <span v-text="materials[mt]"></span> -->
               <p>
@@ -102,7 +102,7 @@
       <h2>新しいデバイスの追加</h2>
       <form class="add-form" v-on:submit.prevent="doAdd">
         <!-- コメント入力フォーム -->
-        <label for="">デバイス名
+        <label for=""><span class="sp_none">デバイス名</span>
           <input type="search" list="devices" v-model="keyword" placeholder="デバイス名を入力" autocomplete="on">
           <datalist id="devices">
             <option v-for="item in devices" v-bind:value=item.device v-bind:label=item.type[0].tips>{{item.device}}</option>
@@ -120,19 +120,22 @@
           <tbody v-for="device in matcheMaterial">
             <template v-for="(item, i) in device.type" :key="item.id">
               <tr>
-                <td v-if="i == 0" v-bind:rowspan="device.type.length*2" class="device">{{device.device}}</td>
-                <td>{{item.rank}}</td>
-                <td><input type="button" v-on:click="doAdd(device,item)" value="追加"></td>
-                <td>{{item.tips}}</td>
+                <td v-if="i == 0" colspan="3" class="device name t_sp">{{device.device}}</td>
               </tr>
               <tr>
-                <td colspan="3">
+                <td v-if="i == 0" v-bind:rowspan="device.type.length*2" class="device t_pc">{{device.device}}</td>
+                <td class="leftside">{{item.rank}}</td><td><input type="button" v-on:click="doAdd(device,item)" value="追加"></td>
+                <td class="tips">{{item.tips}}</td>
+              </tr>
+              <tr>
+                <td colspan="3" class="tips">
                   <span v-for="(mtr,i) in item.materials">
                     {{item.materials[i]}} {{item.material_num[i]}}コ
                   </span>
                 </td>
               </tr>
             </template>
+            <tr class="t_sp"><td colspan="2"><br></td></tr>
           </tbody>
         </table>
         <input type="button" onclick="submit();" value="送信" style="display:none;" />
