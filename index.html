@@ -62,7 +62,7 @@
             <td>
               <p>{{item.cate}}<br><span class="device">{{item.device}}{{item.comment.rank}}</span> <br class="sp_br"><span class="tips">{{item.comment.tips}}</span></p>
               <p v-for="(mt, index) in item.comment.materials">
-                <label v-if="materials[mt]" :id="'ticket-'+item.id+'-'+index"><span class="device" v-text="mt"></span>
+                <label v-if="materials[mt]" :id="'ticket-'+item.id+'-'+index"><span class="material" v-text="mt"></span>
                 <span v-text="item.comment.material_num[index]+'コ'"></span><br class="sp_br">
                 <input type="checkbox"
                     v-bind:value="item.id+'-'+index" v-model="tickets">{{item.comment.ticket[index]}}
@@ -71,7 +71,7 @@
                 <span class="tips" v-if="materials[mt]">{{materials[mt].info}}</span></label>
               </p>
               <!-- <span v-text="materials[mt]"></span> -->
-              <p>
+              <p class="others">
                 <span v-text="item.comment.rsrc"></span>
                 <span> </span>
 

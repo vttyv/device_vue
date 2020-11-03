@@ -64,7 +64,21 @@ p {
 }
 
 @media screen and (max-width: 820px) {
-  .device {
+  #app p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #app .device {
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #app .material {
+    font-size: 16px;
     font-weight: bold;
   }
 }
@@ -138,7 +152,7 @@ table .t_pc {
     text-align: center;
   }
   table .tips {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
   }
 }
