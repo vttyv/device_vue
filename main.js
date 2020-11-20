@@ -20,6 +20,7 @@ var todoStorage = {
 var app = new Vue({
   el: '#app',
   data: {
+    isSheat:true,isCreate:false,isFinish:false,
     // ★STEP5 localStorage から 取得した ToDo のリスト
     todos: [],
     // ★STEP11 抽出しているToDoの状態
@@ -40,9 +41,15 @@ var app = new Vue({
 
   computed: {
     // ★STEP12
-    computedTodos: function () {
+
+    computedCreate: function () {
       return this.todos.filter(function (el) {
-        return this.current < 0 ? true : this.current === el.state
+        return el.state == 0
+      }, this)
+    },
+    computedFinish: function () {
+      return this.todos.filter(function (el) {
+        return el.state == 1
       }, this)
     },
     computedTiketSum: function () {
