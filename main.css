@@ -328,7 +328,7 @@ a {
 }
 
 #container #create .header + .page {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 @media screen and (max-width: 768px) {
