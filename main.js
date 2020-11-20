@@ -188,6 +188,7 @@ var app = new Vue({
         }
       }
       value.ticket_def = value.ticket;
+      // console.log(value.ticket_def )
       this.todos.push({
         id: todoStorage.uid++,
         device: device.device,
