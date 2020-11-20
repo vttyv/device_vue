@@ -136,7 +136,7 @@
                     <p>{{item.cate}}
                       <!-- ★STEP10 状態変更ボタン -->
                       <button v-on:click="doChangeState(item)">
-                        制作済み
+                        製作済み
                       </button>
                     </p>
 
@@ -172,7 +172,7 @@
           </section>
           <section class="none" v-bind:class='{active:isFinish}' id="finish">
             <div class="header ">
-              <p>制作済みデバイス</p>
+              <p>製作済みデバイス</p>
             </div>
             <div class="page">
               <article class="card" v-for="item in computedFinish" v-bind:key="item.id" v-bind:id="'item-'+item.id"

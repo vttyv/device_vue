@@ -230,6 +230,9 @@ a {
             padding-top: 80px;
         }
     }
+    #finish .border {
+        padding-top: 10px;
+    }
     @media screen and (max-width: 768px) {
         #create .page .card, #finish .page .card {
             flex-basis: 100%;
