@@ -52,10 +52,28 @@ var app = new Vue({
         return el.state == 1
       }, this)
     },
+    computedResource: function () {
+      sources = [];
+      this.todos.filter(function (el) {
+        return el.state == 0
+      }, this).forEach( function(e){
+        if(typeof(sources[e.comment.rsrc]) == "undefined"){
+          sources[e.comment.rsrc] = 0;
+        }
+        sources[e.comment.rsrc] += Number(e.comment.rsrc_num)
+      })
+      str = "";
+      for( key in sources ) {
+        str += key + sources[key]+" ";
+      }
+
+      return str;
+    },
+    
     computedTiketSum: function () {
       sum = 0;
       target = this.todos.filter(function (el) {
-        return this.current < 0 ? true : this.current === el.state
+        return el.state == 0
       }, this)//.map(x => x.comment.ticket.map(el =>{ sum += el }))
 
       for(i = 0; i < target.length;i++){
@@ -73,7 +91,7 @@ var app = new Vue({
 
       sum = 0;
       target = this.todos.filter(function (el) {
-        return this.current < 0 ? true : this.current === el.state
+        return el.state == 0
       }, this)//.map(x => x.comment.ticket.map(el =>{ sum += el }))
 
       for(i = 0; i < target.length;i++){
@@ -89,7 +107,7 @@ var app = new Vue({
 
     computedMiraCost: function () {
       return this.todos.filter(function (el) {
-        return this.current < 0 ? true : this.current === el.state
+        return el.state == 0
       }, this).map(x => x.comment.cost).reduce((a,x) => a+=x,0);
     },
 
@@ -188,7 +206,6 @@ var app = new Vue({
         }
       }
       value.ticket_def = value.ticket;
-      // console.log(value.ticket_def )
       this.todos.push({
         id: todoStorage.uid++,
         device: device.device,

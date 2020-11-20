@@ -209,9 +209,10 @@ a {
         }
     }
     #create .header {
-        height: 50px;
-        line-height: 50px;
-        padding-left: 20px;
+        height: 70px;
+        line-height: 25px;
+        padding: 0px;
+        padding: 5px;
         &+.page {
             padding-top: 80px;
         }

@@ -125,8 +125,8 @@
           </section>
           <section class="none" v-bind:class='{active:isCreate}' id="create">
             <div class="header">
-              <p>{{ computedCreate.length }} 件 チケット必要枚数:{{ computedTiketSum }},ミラニウム:{{computedMiraCost}}
-                端末{{ computedOrbit }}周分です</p>
+              <p>{{ computedCreate.length }} 件 チケット:{{ computedTiketSum }},ミラニウム:{{computedMiraCost}}
+                端末{{ computedOrbit }}周分です。<br>{{computedResource}}</p>
             </div>
             <div class="page">
               <article class="card" v-for="item in computedCreate" v-bind:key="item.id" v-bind:id="'item-'+item.id"
