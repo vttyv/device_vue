@@ -24,7 +24,7 @@ var app = new Vue({
     // ★STEP5 localStorage から 取得した ToDo のリスト
     todos: [],
     // ★STEP11 抽出しているToDoの状態
-    current: 0,
+    current: -1,
     // ★STEP11＆STEP13 各状態のラベル
     keyword: "",
     mtr_name: "",

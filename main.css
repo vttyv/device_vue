@@ -348,9 +348,11 @@ a {
   padding-top: 80px;
 }
 
-#container #finish .page .card {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+@media screen and (max-width: 768px) {
+  #container #create .page .card, #container #finish .page .card {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
